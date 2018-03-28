@@ -91,9 +91,9 @@ def decideWinner(computer, player, wins, losses, ties):
         ties += 1
         print("You tied!")
     
-    print("Wins: " + str(wins))
-    print("Losses: " + str(losses))
-    print("Ties: " + str(ties))
+    #print("Wins: " + str(wins))
+    #print("Losses: " + str(losses))
+    #print("Ties: " + str(ties))
     return wins, losses, ties
 
 
